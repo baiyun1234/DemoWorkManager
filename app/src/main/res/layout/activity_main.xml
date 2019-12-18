@@ -3,12 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn_work"
+        android:id="@+id/btn_simple_work"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="开始" />
+        android:text="开始任务（简单的用法）" />
+
+    <Button
+        android:id="@+id/btn_senior_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始任务（高级的用法：任务链）" />
 
 </LinearLayout>
